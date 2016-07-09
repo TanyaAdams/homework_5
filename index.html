@@ -15,22 +15,22 @@
 		<link href="css/style.css"  rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<header>
-			<nav class="navigation_box">
-				<ul class="nav">
-					<li class="nav_item"><a href="">Meu YuoBike</a></li>
-					<li class="nav_item"><a href="">Vender</a></li>
-					<li class="nav_item"><a href="">Forum</a></li>
-					<li class="nav_item"><a href="">Contato</a></li>
-					<li class="nav_item right_border"><a href="">Ajuada</a></li>
-					<li class="nav_item item"><a href="">
-						<img src="img/pic.png" alt=""> Minhas Ofertas</a></li>
-					<li class="nav_item item_next"><a href="">Ola <span>Entrar</span> 
-					ou <span> Cadastre-se</a></li>
-				</ul>
-			</nav>
-		</header>
 		<div class="container">
+			<header>
+				<nav class="navigation_box">
+					<ul class="nav">
+						<li class="nav_item"><a href="">Meu YuoBike</a></li>
+						<li class="nav_item"><a href="">Vender</a></li>
+						<li class="nav_item"><a href="">Forum</a></li>
+						<li class="nav_item"><a href="">Contato</a></li>
+						<li class="nav_item right_border"><a href="">Ajuada</a></li>
+						<li class="nav_item item"><a href="">
+							<img src="img/pic.png" alt=""> Minhas Ofertas</a></li>
+						<li class="nav_item item_next"><a href="">Ola <span>Entrar</span> 
+						ou <span> Cadastre-se</a></li>
+					</ul>
+				</nav>
+			</header>
 			<main>
 				<div class="content">
 					<div class="cadastre">
@@ -44,16 +44,16 @@
 						<div class="line2"></div>
 					</div>
 					<form action="/" method="post">
-						<input type="text" name="authorization" placeholder="First Name">
-						<input type="text" name="authorization"  placeholder="Last Name">
-						<input type="email" name="authorization" placeholder="Email Address">
-						<input type="password" name="authorization" placeholder="Coose Password"  class="last">
-						<input type="password" name="authorization" placeholder="Password Confirm">
+						<input type="text" name="first-name" placeholder="First Name" required>
+						<input type="text" name="last-name"  placeholder="Last Name" required>
+						<input type="email" name="email-address" placeholder="Email Address" required>
+						<input type="password" name="coose-password" placeholder="Coose Password" required class="last">
+						<input type="password" name="confirm-password" placeholder="Password Confirm" required>
 						<label class="checkbox_box  clearfix">
 							<input type="checkbox" name="send">
 							<span class="checkbox">Send me Youbike updates and tips</span>
 						</label>
-						<input type="submit" value="Create my Account" >
+						<input type="submit" value="Create my Account">
 					</form>
 					<div class="bottom">
 						<p>Conur adipi elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
